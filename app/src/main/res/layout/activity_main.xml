@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnAct2Main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#03A9F4"
+        android:onClick="clickButton"
+        android:text="Actividad 2" />
+
+    <Button
+        android:id="@+id/btnAct3Main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#5DD562"
+        android:onClick="clickButton"
+        android:text="Actividad 3"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnAct4Main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#FFC107"
+        android:onClick="clickButton"
+        android:shadowColor="#BA9525"
+        android:text="Actividad 4"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnAct5Main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="clickButton"
+        android:text="Actividad 5"
+        android:textSize="24sp" />
+
+</LinearLayout>
